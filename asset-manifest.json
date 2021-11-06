@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/BezarDelet/static/css/main.28f81365.chunk.css",
+    "main.js": "/BezarDelet/static/js/main.2a3750e3.chunk.js",
+    "main.js.map": "/BezarDelet/static/js/main.2a3750e3.chunk.js.map",
+    "runtime-main.js": "/BezarDelet/static/js/runtime-main.6b032f10.js",
+    "runtime-main.js.map": "/BezarDelet/static/js/runtime-main.6b032f10.js.map",
+    "static/js/2.3d95b62d.chunk.js": "/BezarDelet/static/js/2.3d95b62d.chunk.js",
+    "static/js/2.3d95b62d.chunk.js.map": "/BezarDelet/static/js/2.3d95b62d.chunk.js.map",
+    "static/js/3.b8eed1c1.chunk.js": "/BezarDelet/static/js/3.b8eed1c1.chunk.js",
+    "static/js/3.b8eed1c1.chunk.js.map": "/BezarDelet/static/js/3.b8eed1c1.chunk.js.map",
+    "index.html": "/BezarDelet/index.html",
+    "static/css/main.28f81365.chunk.css.map": "/BezarDelet/static/css/main.28f81365.chunk.css.map",
+    "static/js/2.3d95b62d.chunk.js.LICENSE.txt": "/BezarDelet/static/js/2.3d95b62d.chunk.js.LICENSE.txt",
+    "static/media/BlueberryBowl.87a14884.png": "/BezarDelet/static/media/BlueberryBowl.87a14884.png",
+    "static/media/Chef-min.8c451a7d.png": "/BezarDelet/static/media/Chef-min.8c451a7d.png",
+    "static/media/Pancake.16c29cf2.png": "/BezarDelet/static/media/Pancake.16c29cf2.png",
+    "static/media/Rank1.ead6f54c.png": "/BezarDelet/static/media/Rank1.ead6f54c.png",
+    "static/media/Rank2.1daccf4a.png": "/BezarDelet/static/media/Rank2.1daccf4a.png",
+    "static/media/Rank3.9297b602.png": "/BezarDelet/static/media/Rank3.9297b602.png",
+    "static/media/TableCloth.8b80fad7.png": "/BezarDelet/static/media/TableCloth.8b80fad7.png",
+    "static/media/app.css": "/BezarDelet/static/media/form.71de1b08.png",
+    "static/media/offer.350c030f.png": "/BezarDelet/static/media/offer.350c030f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b032f10.js",
+    "static/js/2.3d95b62d.chunk.js",
+    "static/css/main.28f81365.chunk.css",
+    "static/js/main.2a3750e3.chunk.js"
+  ]
+}
