@@ -1,0 +1,252 @@
+.containerHow{
+    /* display: none; */
+    position: relative;
+    padding-top: 80px;
+    /* margin-top: 100px; */
+}
+.how{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.offer{
+
+}
+.formTutorial{
+    width: 445px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    align-items: center;
+}
+
+
+.formTutorial h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.formTutorial p{
+    color: rgb(119, 119, 119);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.howIt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.flexQuestion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.question{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 500;
+}
+.ques{
+    font-size: 16px;
+    padding: 0 12px;
+    margin-bottom: 5px;
+}
+
+.options{
+    font-weight: 300;
+    display: flex;
+}
+.option{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.checkbox{
+    padding: 5 9px !important;
+}
+
+.blueberryH{
+    display: none;
+
+    position: absolute;
+    left: 83.5%;
+    top: 93%;
+    transform: scale(0.6);
+}
+
+.blueberryBowH{
+    display: none;
+    position: absolute;
+    left: 85%;
+    top: 70%;
+}
+
+.submitTutorial{
+    margin-top: 35px;
+    cursor: pointer;
+    outline: none;
+    border: 2px #000 solid;
+    border-radius: 35px;
+    padding: 10px 45px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgba(16, 4, 68,0.0);
+    color: #000000;
+}
+
+.especially{
+    font-size: 29px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.flexOffer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-shape-divider-bottom-1629204610 {
+    position: absolute;
+    bottom: 0px;
+    
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    height: 180px;
+
+}
+
+.custom-shape-divider-bottom-1629204610 svg {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 180px;
+    transform: rotateY(180deg);
+    
+}
+
+.custom-shape-divider-bottom-1629204610 .shape-fill {
+    fill: #F5F5F5;
+}
+
+.custom-shape-divider-top-1629204480 {
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    height: 100%;
+}
+
+.custom-shape-divider-top-1629204480 svg {
+    position: absolute;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 243px;
+}
+
+.custom-shape-divider-top-1629204480 .shape-fill {
+    fill: #F5F5F5;
+}
+
+
+
+
+
+
+@media(max-width : 1300px){
+
+}
+@media(max-width : 1125px){
+    .formTutorial{
+        margin-right: 20px;
+    }
+}
+@media(max-width : 1025px){
+    .formTutorial{
+        margin-right: 0px;
+    }
+    .offer{
+        width: 450px;
+    }
+}
+@media(max-width : 925px){
+    .formTutorial{
+        margin-right: 0px;
+    }
+    .offer{
+        width: 400px;
+    }
+}
+/* @media(max-width : 925px){
+    .formTutorial{
+        margin-right: 0px;
+    }
+    .offer{
+        width: 400px;
+    }
+} */
+
+@media(max-width : 850px){
+    .offer{
+        width: 300px;
+    }
+    .especially{
+        font-size: 22px;
+    }
+}
+@media(max-width : 750px){
+    .containerHow{
+        display: none;
+
+    }
+}
+
+@media(max-width : 650px){
+
+}
+
+@media(max-width : 550px){
+
+}
+
+@media(max-width : 426px){
+
+}
+
+@media(max-width : 376px){
+
+}
+
+@media(max-width : 321px){
+
+}

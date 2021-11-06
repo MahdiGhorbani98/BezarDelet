@@ -1,0 +1,379 @@
+.containerCart__Bg{
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.5);
+    
+}
+.backCart{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.pageCart{
+    z-index: 1;
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.pageCart h1{
+    color: rgb(36, 36, 36);
+    margin-left: 70px !important;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.flexCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.container__itemCart{
+    height: 400px;
+    margin:0 30px 0 100px;
+    overflow-y: scroll;
+    padding-right: 5px;
+}
+.container__itemCart__overflow{
+
+    overflow-y: unset !important;
+}
+
+
+
+.itemCart{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+    border-bottom:2px solid #ebebeb;
+    padding: 15px 0
+}
+
+.itemCart__foodImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 17px;
+
+}
+
+.itemCart__foodTitle{
+    color: #000;
+    font-weight: 600;
+    margin: 0 40px;
+    width: 200px;
+}
+
+.itemCart__foodPrice{
+    color: #000;
+    font-weight: 600;
+    margin: 0 0 0 40px;
+    width: 70px;
+}
+
+.checkoutPage{
+    width: 320px;
+    height: 528px;
+    background-color: #273742;
+    box-shadow: 0px 0px 9px 3px #00000054;
+    border-radius: 5px;
+    margin-right: 36px;
+}
+
+.countCart__cart{
+    color: #000;
+}
+
+.subtotalContainer{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.subtotal{
+    color: #838383;
+    font-weight: 700;
+}
+
+.subtotal__num{
+    margin-left: 5px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+}
+.checkoutPage{
+
+    width: 320px;
+    height: 528px;
+    background-color: #273742;
+    box-shadow: 0px 0px 9px 3px #00000054;
+    border-radius: 5px;
+    margin-right: 36px;
+}
+
+.checkoutBtn__Container{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardDetails{
+    margin: 30px 0 20px 40px;
+    color: white;
+}
+
+.bankCard__Container{
+    display: flex;
+}
+.bankCard{
+    width: 222px;
+    height: 130px;
+    /* background-image: linear-gradient(to right, green , yellow); */
+    background: linear-gradient(to right,#606c88 0%,#3f4c6b 100%);
+    border-radius: 5px;
+    margin-left: -40px;
+    box-shadow: 0px 0px 6px 1px #0000002e;
+}
+
+.visa{
+    color: rgb(238, 238, 238);
+    margin: 12px 20px;
+}
+.numberStar{
+    text-align: center;
+    display: block;
+    margin: 25px auto 20px auto;
+    font-size: 16px;
+    color: rgb(201, 201, 201);
+
+}
+
+.name__date{
+    color: rgb(201, 201, 201);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 12px;
+}
+.name__date p{
+    margin: 0 20px;
+}
+
+.checkoutBtn{
+    width: 80%;
+    padding: 15px 40px;
+    font-weight: 600;
+    background-color:#0087ca;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.checkoutBtn:hover{
+    background-color: #01689C;
+}
+
+.cartType{
+    color: rgb(165, 165, 165);
+    font-size: 13px;
+    font-weight: 500;
+    margin:30px 0 20px 40px !important;
+}
+
+
+.twoCircle__master{
+    margin: 20px 0 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoCircle{
+    display: flex;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.redCircle{
+    background-color: rgba(255, 17, 17, 0.7);
+    z-index: 1;
+}
+.yellowCircle{
+    background-color: rgba(255, 173, 21, 1);
+    margin-left: -12px;
+    z-index: 0;
+}
+.master{
+    color: rgb(196, 196, 196);
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.formCheckout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date__cvv{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.error{
+    color: rgb(223, 54, 54);
+}
+.actionsCart{
+    display: flex;
+    align-items: baseline;
+}
+
+@media(max-width : 1560px){
+    .container__itemCart {
+        margin: 0 20px 0 50px;
+    }
+    
+}
+@media(max-width : 1490px){
+    .pageCart {
+       width: 75%;
+    }
+    
+}
+@media(max-width : 1390px){
+    .container__itemCart {
+        margin: 0 20px 0 30px;
+    }
+    .itemCart .itemCart__foodTitle{
+        margin: 0 0px 0 25px;
+    }
+    
+}
+
+@media(max-width : 1300px){
+    .pageCart{
+        width: 85%;
+    }
+    /* .twoCircle__master{
+        display: none;
+    }
+    .bankCard{
+        margin: 0 auto;
+    } */
+
+    .itemCart .itemCart__foodTitle{
+        width: 170px;
+    }
+
+}
+@media(max-width : 1125px){
+    .pageCart{
+        width: 100%;
+    }
+}
+
+@media(max-width : 950px){
+    .twoCircle__master{
+        display: none;
+    }
+    .bankCard{
+        margin: 0 auto;
+    }
+    .itemCart__foodPrice{
+        margin: 0 0 0 10px;
+    }
+    .checkoutPage{
+        margin-right: 10px;
+    }
+    .itemCart .itemCart__foodTitle{
+        width: 130px;
+    }
+}
+@media(max-width : 761px){
+    .flexCart{
+        display: block;
+    }
+    .datailOrder{
+        margin: 20px;
+    }
+    .pageCart{
+        height: 100%;
+        overflow-y: scroll;
+    }
+    .checkoutPage {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width : 650px){
+
+}
+
+@media(max-width : 525px){
+    .actionsCart{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    .countCart__addBtn{
+        margin: 10px 0;
+    }
+    .itemCart .itemCart__foodTitle {
+        margin: 0 0px 0 0px;
+        width: auto;
+    }
+}
+
+@media(max-width : 426px){
+    .datailOrder{
+        margin: 20px 0 20px 0;
+    }
+    .checkoutPage{
+        width: 95%;
+    }
+}
+
+@media(max-width : 376px){
+
+}
+
+@media(max-width : 321px){
+    .checkoutPage{
+        width: 100%;
+    }
+    .container__itemCart {
+        margin: 10px ;
+    }
+}

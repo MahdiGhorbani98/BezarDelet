@@ -1,0 +1,357 @@
+body{
+    overflow-x:hidden;
+
+}
+
+.introText{
+    position:relative;
+    top: -510px;
+    margin-left: 150px;
+
+}
+.introText h2{
+    font-size: 36px;
+    font-weight: 300;
+}
+.introText h1{
+    margin-top: 6px;
+    font-size: 38px;
+    font-weight: 700;
+}
+.introText p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #b7b7b7;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.goto{
+    cursor: pointer;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 35px;
+    padding: 10px 45px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgba(0, 0,0,1);
+    transition: 0.2s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 100px ;
+}
+.goto:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0,0,0);
+
+}
+.container{
+    width: 100%;
+}
+
+.containerBG{
+    background-color: #eee;
+    /* min-width: 1520px; */
+    /* width: 100%; */
+    height: 720px;
+    background-image: url('../asset/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -3;
+}
+.blueberryBowl{
+    /* display: none !important; */
+    position: absolute;
+    left: 85%;
+    top: 15%;
+}
+
+.pancake{
+
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    /* animation: rotatePancake 2s infinite ; */
+}
+
+/* @keyframes rotatePancake {
+    50% {transform :rotate(360deg)} 
+} */
+.blueberry1{
+    position: absolute;
+    left: 1.5%;
+    top: -2px;
+}
+.blueberry2{
+    position: absolute;
+    left: 40%;
+    top: 465px;
+}
+.blueberry3{
+    position: absolute;
+    left: -60px;
+    top: 485px;
+}
+.tableCloth{
+    position: absolute;
+    left: -12px;
+    top: 510px;
+    transform: scale(0.9);
+}
+.orange_Slice1{
+    position: absolute;
+    left: 7%;
+    top: 17px;
+    /* transform: scale(0.9); */
+    z-index: 0;
+}
+.orange_Slice3{
+    position: absolute;
+    left: -15px;
+    top: 800px;
+    transform: scale(0.8);
+}
+
+.custom-shape-divider-top-1628967122 {
+    z-index: -1;
+    position: absolute;
+    top: 720px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1628967122 svg {
+    position: relative;
+    display: block;
+    width: calc(269% + 1.3px);
+    height: 152px;
+}
+
+.custom-shape-divider-top-1628967122 .shape-fill {
+    fill: #F5F5F5;
+}
+
+.threeCard{
+    width: 99%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width : 1424px){
+    .blueberryBowl{
+        display: none !important ;
+        position: absolute;
+        left: 85%;
+        top: 15%;
+    }
+}
+@media(max-width : 1300px){
+    .containerBG{
+
+        background-position: top;
+    }
+    .pancake{
+        width: 450px;
+        position: absolute;
+        left: 50%;
+        top: 20%;
+    }
+    .introText{
+        margin-left: 100px;
+    }
+    .blueberry3{
+        width: 130px;
+    }
+    .tableCloth{
+        width: 145px;
+    }
+
+}
+@media(max-width : 1125px){
+    .threeCard{
+        top: -295px;
+    }
+    .introText h2{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .introText h1{
+        margin-top: 6px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .introText p{
+        margin-top: 15px;
+        font-size: 14px;
+        color: #b7b7b7;
+        line-height: 1.5;
+        margin-bottom: 60px;
+    }
+    .containerBG{
+        background-position: 40%;
+    }
+    .introText{
+        margin-left: 80px;
+    }
+    .pancake{
+        width: 400px;
+        position: absolute;
+        left: 55%;
+        top: 20%;
+    }
+    .blueberry3{
+        width: 120px;
+        left: -45px;
+
+    }
+    .tableCloth{
+        width: 135px;
+    }
+}
+
+@media(max-width : 1125px){
+    .pancake{
+        width: 350px;
+        position: absolute;
+        left: 57%;
+        top: 23%;
+    }
+}
+@media(max-width : 1025px){
+    .blueberry1{
+        left: 0.5%;
+    }
+    .goto{
+        padding: 10px 40px;
+        margin-left: 60px;
+    }
+    .pancake{
+        width: 300px;
+        position: absolute;
+        left: 55%;
+        top: 33%;
+    }
+    .blueberry3{
+        width: 110px;
+    }
+    .tableCloth{
+        width: 125px;
+    }
+    .threeCard{
+        width: 100%;
+    }
+
+
+}
+@media(max-width : 850px){
+
+    .pancake{
+        display: none;
+
+    }
+
+}
+@media(max-width : 769px){
+    .blueberry1{
+        left: 0.0%;
+        top: -5px;
+
+    }
+
+
+}
+
+@media(max-width : 620px){
+    .orange_Slice1{
+        position: absolute;
+        left: 7%;
+        top: 57px;
+        
+    }
+}
+
+@media(max-width : 550px){
+    .threeCard{
+        flex-direction: column  ;
+        align-items: center;
+        top: -335px;
+    }
+
+}
+
+@media(max-width : 426px){
+    .orange_Slice3{
+        width: 90px;
+    }
+    .introText h2{
+        font-size: 28px;
+        font-weight: 300;
+    }
+    .introText h1{
+        margin-top: 6px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .introText p{
+        margin-top: 15px;
+        font-size: 14px;
+        color: #b7b7b7;
+        line-height: 1.5;
+        margin-bottom: 60px;
+    }
+    .containerBG{
+
+        background-position: 40%;
+    }
+    .introText{
+
+        margin-left: 40px;
+    
+    }
+    .goto{        
+        margin-left: 0;
+    }
+}
+
+@media(max-width : 376px){
+    .introText{
+
+        margin-left: 30px;
+    
+    }
+
+    .blueberry3{
+        display: none;
+
+    }
+
+}
+
+@media(max-width : 321px){
+
+}
+
+

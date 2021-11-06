@@ -1,0 +1,37 @@
+@import url('../css/home.css');
+@import url('../css/card.css');
+@import url('../css/header.css');
+@import url('../css/how.css');
+@import url('../css/delivery.css');
+@import url('../css/quiz.css');
+@import url('../css/menu.css');
+@import url('../css/footer.css');
+@import url('../css/cart.css');
+@import url('../css/moreInfo.css');
+*{
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior:smooth;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #faf7d0; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffd000; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d1ac06; 
+  }

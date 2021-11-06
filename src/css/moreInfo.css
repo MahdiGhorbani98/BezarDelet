@@ -1,0 +1,230 @@
+.overLayMoreInfo{
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+}
+.back{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.pageCartMoreInfo{
+    z-index: 1;
+    width: 55%;
+    height: 600px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.MoreInfo__Content{
+    display: flex;
+}
+
+.MoreInfo__left,.MoreInfo__right{
+    display: flex;
+    flex-direction: column;
+    margin: 50px ;
+
+}
+
+.MoreInfo__left{
+    margin: 50px ;
+    justify-content: flex-start;
+}
+.moreInfo__foodImg{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.moreInfo__foodTitle{
+    color: #000;
+    font-weight: 600;
+    margin:25px 0px;
+    font-size: 24px;
+}
+
+.moreInfo__foodDes{
+    color: #a7a7a7;
+}
+
+.moreInfo__foodFat ,.moreInfo__foodCalories{
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+}
+.moreInfo__foodFat{
+    margin:25px 0px 0 0;
+}
+.moreInfo__foodCalories{
+    margin:15px 0px;
+}
+.moreInfo__foodPrice{
+    font-weight: 600;
+    margin:25px auto 15px auto;
+    font-size: 22px;
+    color: #888888;
+
+}
+
+.moreInfo__countCart__addBtn{
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+}
+
+.moreInfo__addBtn{
+    background-color: rgba(0,0,0,0);
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: #000 solid 2px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.moreInfo__addBtn:hover{
+    background-color: rgba(0,0,0,1);
+    color: #fff;
+}
+
+.moreInfo__countCart{
+    text-align: center;
+    display: block;
+    width: 25px;
+    margin: 0 14px;
+    font-size: 20px;
+}
+
+.moreInfo__forWho{
+    color: rgb(255, 104, 58);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 4px 6px;
+    margin: 10px 0px 0px 0px;
+    background-color: rgb(253, 232, 222);
+}
+
+.dietBlue{
+    color: rgb(30, 18, 141);
+    background-color: rgb(222, 228, 253);
+}
+
+.sportYellow{
+    color: rgb(131, 118, 0);
+    background-color: rgb(253, 250, 222);
+}
+.allOrange{
+    color: rgb(255, 104, 58);
+    background-color: rgb(253, 232, 222);
+}
+
+.advice{
+    color: #3b3b3b;
+    font-weight: 600;
+    margin: 15px 0 10px 0;
+}
+
+.exercise{
+    margin: 5px 0;
+}
+
+
+@media(max-width : 1560px){
+    .pageCartMoreInfo{
+        overflow-y: scroll;
+    }
+    .MoreInfo__left{
+        height: 90%;
+    }
+    
+}
+@media(max-width : 1400px){
+
+    .MoreInfo__left{
+        margin: 30px 10px 10px 30px;
+    }
+    
+}
+@media(max-width : 1400px){
+    .pageCartMoreInfo{
+        width: 65%;
+    }
+    /* .MoreInfo__left{
+        margin: 30px 10px 10px 30px;
+    } */
+    
+}
+@media(max-width : 1125px){
+    .pageCartMoreInfo{
+        width: 75%;
+    }
+
+    
+}
+@media(max-width : 1025px){
+    .pageCartMoreInfo{
+        width: 85%;
+    }
+    .MoreInfo__right{
+        margin: 30px 10px 10px 30px;
+    }
+    .moreInfo__foodImg{
+        width: 270px;
+    }
+    
+}
+@media(max-width : 769px){
+    .pageCartMoreInfo{
+        width: 98%;
+    }
+    .MoreInfo__right{
+        margin: 30px 10px 10px 30px;
+    }
+    .moreInfo__foodImg{
+        width: 250px;
+    }
+    
+}
+@media(max-width : 550px){
+    .pageCartMoreInfo{
+        width: 100%;
+        height: 100%;
+    }
+    .MoreInfo__right{
+        margin: 30px 15px 10px 15px;
+        align-items: center;
+    }
+    .MoreInfo__left{
+        margin: 30px 15px 10px 15px;
+    }
+    .moreInfo__foodImg{
+        width: 250px;
+    }
+    .MoreInfo__Content{
+        flex-direction: column;
+    }
+    
+}
